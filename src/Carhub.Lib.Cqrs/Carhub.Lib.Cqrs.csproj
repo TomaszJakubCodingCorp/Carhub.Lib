@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <PackageId>Carhub.Lib.Cqrs</PackageId>
+        <Version>0.0.1</Version>
+        <Authors>Carhub</Authors>
+        <Description>Package with cqrs components.</Description>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Scrutor" Version="4.2.2" />
+    </ItemGroup>
+
+</Project>
