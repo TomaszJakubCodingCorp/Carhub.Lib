@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <PackageId>Carhub.Lib.Exceptions</PackageId>
-        <Version>0.0.1</Version>
+        <Version>0.0.2</Version>
         <Authors>Carhub</Authors>
         <Description>Package for handling exceptions.</Description>
         <TargetFramework>net8.0</TargetFramework>
