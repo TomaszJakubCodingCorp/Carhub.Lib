@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Carhub.Lib.SharedKernel</id>
+    <version>0.0.1</version>
+    <authors>Carhub</authors>
+    <description>Package with shared kernel components.</description>
+    <repository type="git" commit="cb7d48d4585b0b760eb1a91b24e50abd7f973ab8" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.SharedKernel/bin/Release/net8.0/Carhub.Lib.SharedKernel.dll" target="lib/net8.0/Carhub.Lib.SharedKernel.dll" />
+  </files>
+</package>
