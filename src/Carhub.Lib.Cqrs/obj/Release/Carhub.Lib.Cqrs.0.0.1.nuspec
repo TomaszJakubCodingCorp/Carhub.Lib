@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Carhub.Lib.Cqrs</id>
+    <version>0.0.1</version>
+    <authors>Carhub</authors>
+    <description>Package with cqrs components.</description>
+    <repository type="git" commit="f67370e06a55625a32f861495b6ae353527b55af" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Scrutor" version="4.2.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.Cqrs/bin/Release/net8.0/Carhub.Lib.Cqrs.dll" target="lib/net8.0/Carhub.Lib.Cqrs.dll" />
+  </files>
+</package>

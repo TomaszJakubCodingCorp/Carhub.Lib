@@ -1,0 +1,12 @@
+/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.Exceptions/bin/Debug/net8.0/Carhub.Lib.Exceptions.deps.json
+/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.Exceptions/bin/Debug/net8.0/Carhub.Lib.Exceptions.dll
+/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.Exceptions/bin/Debug/net8.0/Carhub.Lib.Exceptions.pdb
+/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.Exceptions/obj/Debug/net8.0/Carhub.Lib.Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.Exceptions/obj/Debug/net8.0/Carhub.Lib.Exceptions.AssemblyInfoInputs.cache
+/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.Exceptions/obj/Debug/net8.0/Carhub.Lib.Exceptions.AssemblyInfo.cs
+/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.Exceptions/obj/Debug/net8.0/Carhub.Lib.Exceptions.csproj.CoreCompileInputs.cache
+/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.Exceptions/obj/Debug/net8.0/Carhub.Lib.Exceptions.sourcelink.json
+/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.Exceptions/obj/Debug/net8.0/Carhub.Lib.Exceptions.dll
+/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.Exceptions/obj/Debug/net8.0/refint/Carhub.Lib.Exceptions.dll
+/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.Exceptions/obj/Debug/net8.0/Carhub.Lib.Exceptions.pdb
+/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.Exceptions/obj/Debug/net8.0/ref/Carhub.Lib.Exceptions.dll

@@ -1,0 +1,13 @@
+/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.Cqrs/bin/Release/net8.0/Carhub.Lib.Cqrs.deps.json
+/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.Cqrs/bin/Release/net8.0/Carhub.Lib.Cqrs.dll
+/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.Cqrs/bin/Release/net8.0/Carhub.Lib.Cqrs.pdb
+/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.Cqrs/obj/Release/net8.0/Carhub.Lib.Cqrs.csproj.AssemblyReference.cache
+/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.Cqrs/obj/Release/net8.0/Carhub.Lib.Cqrs.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.Cqrs/obj/Release/net8.0/Carhub.Lib.Cqrs.AssemblyInfoInputs.cache
+/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.Cqrs/obj/Release/net8.0/Carhub.Lib.Cqrs.AssemblyInfo.cs
+/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.Cqrs/obj/Release/net8.0/Carhub.Lib.Cqrs.csproj.CoreCompileInputs.cache
+/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.Cqrs/obj/Release/net8.0/Carhub.Lib.Cqrs.sourcelink.json
+/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.Cqrs/obj/Release/net8.0/Carhub.Lib.Cqrs.dll
+/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.Cqrs/obj/Release/net8.0/refint/Carhub.Lib.Cqrs.dll
+/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.Cqrs/obj/Release/net8.0/Carhub.Lib.Cqrs.pdb
+/Users/tomaszkrasienko/Documents/GitRepositories/carhub/Carhub.Lib/src/Carhub.Lib.Cqrs/obj/Release/net8.0/ref/Carhub.Lib.Cqrs.dll
