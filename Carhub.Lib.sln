@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{437F02B2-30F1-4E31-A133-4F6526314CE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carhub.Lib.Exceptions", "src\Carhub.Lib.Exceptions\Carhub.Lib.Exceptions.csproj", "{4AB43A93-313D-4DA0-ACD6-386680132C05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carhub.Lib.SharedKernel", "src\Carhub.Lib.SharedKernel\Carhub.Lib.SharedKernel.csproj", "{01F7FE00-FB9C-4B89-8387-CEB07D11990B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carhub.Lib.Cqrs", "src\Carhub.Lib.Cqrs\Carhub.Lib.Cqrs.csproj", "{2E8B7DF6-337D-47B4-9B59-0CF3CED69151}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4AB43A93-313D-4DA0-ACD6-386680132C05} = {437F02B2-30F1-4E31-A133-4F6526314CE7}
+		{01F7FE00-FB9C-4B89-8387-CEB07D11990B} = {437F02B2-30F1-4E31-A133-4F6526314CE7}
+		{2E8B7DF6-337D-47B4-9B59-0CF3CED69151} = {437F02B2-30F1-4E31-A133-4F6526314CE7}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AB43A93-313D-4DA0-ACD6-386680132C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AB43A93-313D-4DA0-ACD6-386680132C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AB43A93-313D-4DA0-ACD6-386680132C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AB43A93-313D-4DA0-ACD6-386680132C05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F7FE00-FB9C-4B89-8387-CEB07D11990B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F7FE00-FB9C-4B89-8387-CEB07D11990B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F7FE00-FB9C-4B89-8387-CEB07D11990B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F7FE00-FB9C-4B89-8387-CEB07D11990B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E8B7DF6-337D-47B4-9B59-0CF3CED69151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E8B7DF6-337D-47B4-9B59-0CF3CED69151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E8B7DF6-337D-47B4-9B59-0CF3CED69151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E8B7DF6-337D-47B4-9B59-0CF3CED69151}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
