@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carhub.Lib.SharedKernel", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carhub.Lib.Cqrs", "src\Carhub.Lib.Cqrs\Carhub.Lib.Cqrs.csproj", "{2E8B7DF6-337D-47B4-9B59-0CF3CED69151}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carhub.Lib.MessageBrokers.Abstractions", "src\Carhub.Lib.MessageBrokers.Abstractions\Carhub.Lib.MessageBrokers.Abstractions.csproj", "{323018C2-D0DA-440A-934C-0A54AD74924A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,7 @@ Global
 		{4AB43A93-313D-4DA0-ACD6-386680132C05} = {437F02B2-30F1-4E31-A133-4F6526314CE7}
 		{01F7FE00-FB9C-4B89-8387-CEB07D11990B} = {437F02B2-30F1-4E31-A133-4F6526314CE7}
 		{2E8B7DF6-337D-47B4-9B59-0CF3CED69151} = {437F02B2-30F1-4E31-A133-4F6526314CE7}
+		{323018C2-D0DA-440A-934C-0A54AD74924A} = {437F02B2-30F1-4E31-A133-4F6526314CE7}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4AB43A93-313D-4DA0-ACD6-386680132C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -37,5 +40,9 @@ Global
 		{2E8B7DF6-337D-47B4-9B59-0CF3CED69151}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E8B7DF6-337D-47B4-9B59-0CF3CED69151}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E8B7DF6-337D-47B4-9B59-0CF3CED69151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{323018C2-D0DA-440A-934C-0A54AD74924A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{323018C2-D0DA-440A-934C-0A54AD74924A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{323018C2-D0DA-440A-934C-0A54AD74924A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{323018C2-D0DA-440A-934C-0A54AD74924A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
