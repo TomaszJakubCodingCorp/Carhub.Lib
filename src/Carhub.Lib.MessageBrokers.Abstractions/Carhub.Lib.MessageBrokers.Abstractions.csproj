@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <PackageId>Carhub.Lib.MessageBrokers.Abstractions</PackageId>
-        <Version>0.0.1</Version>
+        <Version>0.0.2</Version>
         <Authors>Carhub</Authors>
         <Description>Package with abstractions for asynchronous messages by brokers.</Description>
         <TargetFramework>net8.0</TargetFramework>
