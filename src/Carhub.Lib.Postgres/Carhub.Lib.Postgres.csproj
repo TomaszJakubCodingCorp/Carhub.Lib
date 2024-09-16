@@ -1,10 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <PackageId>Carhub.Lib.Exceptions</PackageId>
-        <Version>0.0.2</Version>
-        <Authors>Carhub</Authors>
-        <Description>Package for handling exceptions.</Description>
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
@@ -12,6 +8,8 @@
 
     <ItemGroup>
         <FrameworkReference Include="Microsoft.AspnetCore.App"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8"/>
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.4"/>
     </ItemGroup>
     
 </Project>

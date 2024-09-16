@@ -1,17 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <PackageId>Carhub.Lib.Exceptions</PackageId>
-        <Version>0.0.2</Version>
-        <Authors>Carhub</Authors>
-        <Description>Package for handling exceptions.</Description>
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+
     <ItemGroup>
         <FrameworkReference Include="Microsoft.AspnetCore.App"/>
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.8" />
+      <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.0.2" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.7.3" />
     </ItemGroup>
     
 </Project>
