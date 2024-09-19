@@ -8,7 +8,7 @@ namespace Carhub.Lib.Cqrs.Configuration;
 public static class Extensions
 {
     public static IServiceCollection AddCarhubCqrs(this IServiceCollection services)
-    {        
+    {
         var assemblies = AppDomain.CurrentDomain.GetAssemblies();
         services
             .AddCommands(assemblies)

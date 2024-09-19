@@ -1,0 +1,11 @@
+{
+  "AuthOptions": {
+    "IssuerSigningKey": "paste key here",
+    "Issuer": "CarHub",
+    "ValidIssuer": "CarHub",
+    "ValidateAudience": false,
+    "ValidateIssuer": true,
+    "ValidateLifetime": true,
+    "Expiry": "01:00:00"
+  }
+}
