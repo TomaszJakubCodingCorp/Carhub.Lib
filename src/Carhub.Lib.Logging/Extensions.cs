@@ -66,12 +66,19 @@ public static class Extensions
     {
         var consoleOptions = options.Console;
         var seqOptions = options.Seq;
+        var fileOptions = options.File;
 
         if (consoleOptions.Enabled)
             loggerConfiguration.WriteTo.Console();
 
         if (seqOptions.Enabled)
             loggerConfiguration.WriteTo.Seq(seqOptions.Url, apiKey: seqOptions.ApiKey);
+
+        if (fileOptions.Enabled)
+        {
+            var logFilePath = $"logs/log_{options.App.Service}_{DateTime.UtcNow:yyyy-MM-dd}.txt";
+            loggerConfiguration.WriteTo.File(logFilePath, rollingInterval: RollingInterval.Day);
+        }
     }
 
     private static LogEventLevel GetLogEventLevel(string level)
