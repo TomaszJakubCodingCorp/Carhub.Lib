@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carhub.Lub.WebApi", "src\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carhub.Lib.Postgres", "src\Carhub.Lib.Postgres\Carhub.Lib.Postgres.csproj", "{FD4D3956-EA9E-4B44-8BBA-1C9764E982F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carhub.Lib.Configuration", "src\Carhub.Lib.Configuration\Carhub.Lib.Configuration.csproj", "{CFB2DA5B-0CA1-4973-9E4C-7B093AD85787}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,7 @@ Global
 		{E10FEE38-AF53-45CC-9CFD-4A597636D8FF} = {437F02B2-30F1-4E31-A133-4F6526314CE7}
 		{739603BF-F21E-4E66-9FD5-859E29A472AC} = {437F02B2-30F1-4E31-A133-4F6526314CE7}
 		{FD4D3956-EA9E-4B44-8BBA-1C9764E982F5} = {437F02B2-30F1-4E31-A133-4F6526314CE7}
+		{CFB2DA5B-0CA1-4973-9E4C-7B093AD85787} = {437F02B2-30F1-4E31-A133-4F6526314CE7}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4AB43A93-313D-4DA0-ACD6-386680132C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -65,5 +68,9 @@ Global
 		{FD4D3956-EA9E-4B44-8BBA-1C9764E982F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD4D3956-EA9E-4B44-8BBA-1C9764E982F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD4D3956-EA9E-4B44-8BBA-1C9764E982F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB2DA5B-0CA1-4973-9E4C-7B093AD85787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB2DA5B-0CA1-4973-9E4C-7B093AD85787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB2DA5B-0CA1-4973-9E4C-7B093AD85787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB2DA5B-0CA1-4973-9E4C-7B093AD85787}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

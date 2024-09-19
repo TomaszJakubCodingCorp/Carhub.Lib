@@ -1,5 +1,5 @@
 {
   "PostgresOptions": {
-    "connectionString": "Host=localhost;Database=DbName;Username=user;Password=password"
+    "ConnectionString": "Host=localhost;Database=DbName;Username=user;Password=password"
   }
 }
