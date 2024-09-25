@@ -31,11 +31,12 @@ internal sealed class RabbitMqClient : IRabbitMqClient
         channel.BasicPublish(convention.Exchange, convention.RoutingKey, properties, body.ToArray());
         if (_loggerEnabled)
         {
-            _logger.LogInformation($"Published message with ID: {properties.MessageId} to EXCHANGE: '{convention.Exchange}' with routing key: '{convention.RoutingKey}'");
+            _logger.LogInformation("Published message with ID: {id} to EXCHANGE: '{exchange}' with routing key: '{routingKey}'",
+                properties.MessageId, convention.Exchange,convention.RoutingKey);
         }
     }
 
-    private IBasicProperties CreateMessageProperties(IModel channel, Guid? messageId)
+    private static IBasicProperties CreateMessageProperties(IModel channel, Guid? messageId)
     {
         var properties = channel.CreateBasicProperties();
         properties.MessageId = messageId is null ? Guid.NewGuid().ToString() : messageId.ToString();

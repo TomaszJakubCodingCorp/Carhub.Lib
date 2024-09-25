@@ -4,7 +4,7 @@ namespace Carhub.Lib.MessageBrokers.RabbitMq.Consumers;
 
 public sealed class ConsumersCollection
 {
-    private readonly Dictionary<Type, object> _consumers = new Dictionary<Type, object>();
+    private readonly Dictionary<Type, object> _consumers = [];
 
     public void AddConsumer<TMessage>(Func<TMessage, Task> handler)
     {
@@ -14,7 +14,7 @@ public sealed class ConsumersCollection
         }
     }
 
-    public void Build(IServiceCollection services)
+    internal void Build(IServiceCollection services)
     {
         foreach (var consumer in _consumers)
         {

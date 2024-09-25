@@ -9,7 +9,7 @@ using RabbitMQ.Client.Events;
 
 namespace Carhub.Lib.MessageBrokers.RabbitMq.Consumers;
 
-internal class RabbitMqBackgroundService<TMessage> : BackgroundService where TMessage : class
+internal sealed class RabbitMqBackgroundService<TMessage> : BackgroundService where TMessage : class
 {
     private readonly ILogger<RabbitMqBackgroundService<TMessage>> _logger;
     private readonly IModel _channel;
