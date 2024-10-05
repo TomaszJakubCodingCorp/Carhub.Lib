@@ -1,0 +1,18 @@
+{
+  "RabbitMqOptions": {
+    "Port": 5672,
+    "HostName": "localhost",
+    "VirtualHost": "/",
+    "UserName": "guest",
+    "Password": "guest",
+    "ConnectionName": "Carhub.Service.Vehicles",
+    "Consumers": [
+      {
+        "Type": "CreateOwnershipCommand",
+        "Exchange": "Carhub.Service.Vehicles",
+        "Routing": "VehicleRegistered",
+        "Queue": "Carhub.Vehicles.CreateOwnership"
+      }
+    ]
+  }
+}
